@@ -12,16 +12,22 @@
         <activity
             android:name=".BerandaActivity"
             android:label="@string/app_name">
+
+        </activity>
+        <activity android:name=".CekActivity" />
+        <activity android:name=".SewaActivity" />
+        <activity android:name=".NotifikasiActivity" />
+        <activity android:name=".AkunActivity" />
+        <activity
+            android:name=".ListTransaksiActivity"
+            android:label="@string/title_activity_list_transaksi"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CekActivity" />
-        <activity android:name=".SewaActivity" />
-        <activity android:name=".NotifikasiActivity" />
-        <activity android:name=".AkunActivity"></activity>
     </application>
 
 </manifest>

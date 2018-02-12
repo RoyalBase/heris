@@ -5,4 +5,13 @@
     <string name="sewa">Sewa</string>
     <string name="notifikasi">Notifikasi</string>
     <string name="akun">Akun Saya</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_daftar_tagihan">DaftarTagihanActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_list_transaksi">ListTransaksiActivity</string>
+    <string name="transaksi">Daftar Transaksi</string>
+    <string name="tagihan">Daftar Tagihan</string>
 </resources>

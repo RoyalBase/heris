@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Heris.iml" filepath="$PROJECT_DIR$/Heris.iml" />
-      <module fileurl="file://C:\Users\KimballCho\AndroidStudioProjects\heris\Heris.iml" filepath="C:\Users\KimballCho\AndroidStudioProjects\heris\Heris.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\KimballCho\AndroidStudioProjects\heris\app\app.iml" filepath="C:\Users\KimballCho\AndroidStudioProjects\heris\app\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heris.iml" filepath="$PROJECT_DIR$/heris.iml" />
     </modules>
   </component>
 </project>
