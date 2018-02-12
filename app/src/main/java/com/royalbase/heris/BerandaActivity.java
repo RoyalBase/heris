@@ -1,5 +1,6 @@
 package com.royalbase.heris;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -9,10 +10,11 @@ import android.widget.TextView;
 
 public class BerandaActivity extends AppCompatActivity {
 
-    private TextView mTextMessage;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        Intent i;
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -20,16 +22,14 @@ public class BerandaActivity extends AppCompatActivity {
                 case R.id.beranda:
                     return true;
                 case R.id.cek:
-                    mTextMessage.setText("Cek");
+                    i = new Intent(CekActivity.this, BerandaActivity.class);
+                    startActivity(i);
                     return true;
                 case R.id.sewa:
-                    mTextMessage.setText("Sewa");
                     return true;
                 case R.id.notifikasi:
-                    mTextMessage.setText("Notifikasi");
                     return true;
                 case R.id.akun:
-                    mTextMessage.setText("Akun");
                     return true;
             }
             return false;
