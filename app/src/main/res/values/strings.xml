@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Heris</string>
+    <string name="beranda">Beranda</string>
+    <string name="cek">Cek</string>
+    <string name="sewa">Sewa</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="akun">Akun Saya</string>
+</resources>

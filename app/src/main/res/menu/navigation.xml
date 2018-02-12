@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/beranda"
+        android:icon="@drawable/ic_beranda_aktif"
+        android:title="@string/beranda" />
+
+    <item
+        android:id="@+id/cek"
+        android:icon="@drawable/ic_cek"
+        android:title="@string/cek" />
+
+    <item
+        android:id="@+id/sewa"
+        android:icon="@drawable/ic_sewa"
+        android:title="@string/sewa" />
+
+    <item
+        android:id="@+id/notifikasi"
+        android:icon="@drawable/ic_notifikasi"
+        android:title="@string/notifikasi" />
+
+    <item
+        android:id="@+id/akun"
+        android:icon="@drawable/ic_akun"
+        android:title="@string/akun" />
+
+</menu>
