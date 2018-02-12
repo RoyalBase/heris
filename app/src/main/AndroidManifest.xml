@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CekActivity" />
-        <activity android:name=".SewaActivity"></activity>
+        <activity android:name=".SewaActivity" />
+        <activity android:name=".NotifikasiActivity" />
+        <activity android:name=".AkunActivity"></activity>
     </application>
 
 </manifest>

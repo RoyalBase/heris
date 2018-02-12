@@ -1,15 +1,13 @@
 package com.royalbase.heris;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.MenuItem;
-import android.widget.TextView;
 
-public class BerandaActivity extends AppCompatActivity {
-
+public class AkunActivity extends AppCompatActivity {
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -20,22 +18,22 @@ public class BerandaActivity extends AppCompatActivity {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.beranda:
+                    i = new Intent(AkunActivity.this, BerandaActivity.class);
+                    startActivity(i);
                     return true;
                 case R.id.cek:
-                    i = new Intent(BerandaActivity.this, BerandaActivity.class);
+                    i = new Intent(AkunActivity.this, CekActivity.class);
                     startActivity(i);
                     return true;
                 case R.id.sewa:
-                    i = new Intent(BerandaActivity.this, SewaActivity.class);
+                    i = new Intent(AkunActivity.this, SewaActivity.class);
                     startActivity(i);
                     return true;
                 case R.id.notifikasi:
-                    i = new Intent(BerandaActivity.this, NotifikasiActivity.class);
+                    i = new Intent(AkunActivity.this, NotifikasiActivity.class);
                     startActivity(i);
                     return true;
                 case R.id.akun:
-                    i = new Intent(BerandaActivity.this, AkunActivity.class);
-                    startActivity(i);
                     return true;
             }
             return false;
@@ -45,7 +43,7 @@ public class BerandaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_beranda);
+        setContentView(R.layout.activity_akun);
 
     }
 
@@ -53,7 +51,7 @@ public class BerandaActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setSelectedItemId(R.id.beranda);
+        navigation.setSelectedItemId(R.id.akun);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 }
