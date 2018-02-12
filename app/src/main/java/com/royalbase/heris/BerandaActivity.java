@@ -26,10 +26,16 @@ public class BerandaActivity extends AppCompatActivity {
                     startActivity(i);
                     return true;
                 case R.id.sewa:
+                    i = new Intent(CekActivity.this, SewaActivity.class);
+                    startActivity(i);
                     return true;
                 case R.id.notifikasi:
+                    i = new Intent(CekActivity.this, NotifikasiActivity.class);
+                    startActivity(i);
                     return true;
                 case R.id.akun:
+                    i = new Intent(CekActivity.this, AkunActivity.class);
+                    startActivity(i);
                     return true;
             }
             return false;
