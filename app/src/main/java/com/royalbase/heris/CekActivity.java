@@ -19,18 +19,18 @@ public class CekActivity extends AppCompatActivity {
             Intent i;
             switch (item.getItemId()) {
                 case R.id.beranda:
-                    i = new Intent(CekActivity.this, BerandaActivity);
+                    i = new Intent(CekActivity.this, BerandaActivity.class);
                     startActivity(i);
                     return true;
                 case R.id.cek:
                     return true;
                 case R.id.sewa:
-                    i = new Intent(CekActivity.this, BerandaActivity);
+                    i = new Intent(CekActivity.this, BerandaActivity.class);
                     startActivity(i);
                     return true;
-                case R.id.notifikasi:
-                    return true;
                 case R.id.akun:
+                    return true;
+                case R.id.notifikasi:
                     return true;
             }
             return false;
